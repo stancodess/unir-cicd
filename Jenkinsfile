@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Source') {
             steps {
-                git 'https://github.com/tu-usuario/unir-cicd.git'
+                git 'https://github.com/stancodess/unir-cicd'
             }
         }
         stage('Build') {
