@@ -55,9 +55,9 @@ pipeline {
                 def jobName = env.JOB_NAME
                 def buildNumber = env.BUILD_NUMBER
                 echo "El trabajo ${jobName} con número de ejecución ${buildNumber} ha fallado."
-                mail to: 'stalin.caiche@gmail.com',
-                       subject: "Build failed: ${jobName} #${buildNumber}",
-                       body: "El trabajo ${jobName} con número de ejecución ${buildNumber} ha fallado."
+                //mail to: 'stalin.caiche@gmail.com',
+                //       subject: "Build failed: ${jobName} #${buildNumber}",
+                //       body: "El trabajo ${jobName} con número de ejecución ${buildNumber} ha fallado."
             }
         }
     }
