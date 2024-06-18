@@ -1,0 +1,9 @@
+{
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "results/cypress-[hash].xml",
+        "toConsole": true
+    },
+    "screenshotsFolder": "results/screenshots",
+    "videosFolder": "results/videos"
+}
